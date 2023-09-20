@@ -7,5 +7,3 @@
       register: rg
     - debug:
         var: rg.resourcegroups
-  vars:
-    resourcegroupname: ansible-hackathon-workflow
