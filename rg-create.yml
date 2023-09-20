@@ -1,10 +1,10 @@
----
+t---
 - hosts: localhost
   tasks:
     - name: Creating resource group - "{{resourcegroupname}}"
       azure_rm_resourcegroup:
         name: "{{resourcegroupname}}"
-        location: "{{location}}"
+        location: "eastasia"
       register: rg
     - debug:
         var: rg
