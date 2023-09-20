@@ -4,10 +4,10 @@
     - name: Creating resource group - "{{resourcegroupname}}"
       azure_rm_resourcegroup:
         name: "{{resourcegroupname}}"
-        location: "{{ location }}"
+        location: "{{location}}"
       register: rg
     - debug:
         var: rg
-  var:
+  vars:
     location: eastasia
     resourcegroupname: ansible-hackathon-workflow
