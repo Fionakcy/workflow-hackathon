@@ -51,7 +51,7 @@
       ssh_password_enabled: false
       ssh_public_keys:
         - path: /home/azureuser/.ssh/authorized_keys
-          key_data: "<key_data>"
+          key_data: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCsj9a/CqiVVEqhwsPlaoU7slzVYAHXu1WO0gRlQM+uF0PyagO8dYtabJaAyByBjjscGOUkY85rhvPtdYZjvB62Z4DZ04cjMGd9epf6Nj280WEQxXV4Mij1qtlIqqg3AGK0gz72XgeoxVKIY0hE1X3ak+y0ZWNYRysQyyudItgKS8sEllRGIVBW6d15PdInJj16qTVtC6Ywndo9pvlXEAZORBn+Kc7qnZI+FaJBzvlXLsf2mG2jULlYkCLWJ3UZ0nHIvYMGWgb96zoiHTBBjSCkUUAodxV9ed6jDscBL7v0KZ9UBkBU3yjJmENRpFpyJt36TVmZFV2zl88g4eB50+W4qBDQb++sodBcjWJK4Hsh/hDbDld8R2NOATJgFM4Un7mFybSN+UMX5bDY5eah6DcbIZl0mUauQ0BxVmyUxIPDWBE+Y/gImK9tcNuAzlJ+LeQGDrnUEe8//jMobXgk2sG8JPANtHaJ5oNePDO6Yp19/inDRAvcscb6EsNSQUN5PVVXQ1weZ+1u7In/7YWMnziSsTUSLp7o+/uzdeZbdtdbbQ7+eIcce63+PTky9ynm77eUXFA65k37bMGnWA9RZtbC5SKJBeq/oKfB/pD9zj6ySWOK/9LR/OTnWcJUKdy6K1s8J7ENQMgV7CrTB1N0lU9kOpHhhmbnN5DQOG5CPyuG+Q== student@workstation.lab.example.com
       network_interfaces: myNIC
       image:
         offer: CentOS
