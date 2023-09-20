@@ -1,13 +1,11 @@
 ---
 - hosts: localhost
   tasks:
-    - name: Verify resource group - "{{resourcegroupname}}"
-      azure_rm_resourcegroup:
+    - name: Verify resource group
+      azure_rm_resourcegroup_info:
         name: "{{resourcegroupname}}"
-        location: "{{location}}"
-      state: s
+      register: rg
     - debug:
-        var: s
+        var: rg.resourcegroups
   vars:
-    location: eastasia
     resourcegroupname: ansible-hackathon-workflow
