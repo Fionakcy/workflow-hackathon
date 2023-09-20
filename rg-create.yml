@@ -1,4 +1,4 @@
-t---
+---
 - hosts: localhost
   tasks:
     - name: Creating resource group - "{{resourcegroupname}}"
