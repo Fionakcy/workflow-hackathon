@@ -8,6 +8,3 @@
       register: rg
     - debug:
         var: rg
-  vars:
-    location: eastasia
-    resourcegroupname: ansible-hackathon-workflow
